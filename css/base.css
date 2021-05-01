@@ -10,16 +10,25 @@
 
 body {
 	margin: 0;
-	--color-text: #111;
-	--color-bg: #f8ecde;
-	--color-link: #b19e7f;
-	--color-link-hover: #000;
+	--color-text:  #2e3264;
+	--color-bg: #ffeb94;
+	--color-link: #FFFFFF;
+	--color-link-hover:  #FFFFFF;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: sofia-pro, sans-serif;
 }
+
+h1 {text-align: center;
+    color:black;
+	font-size: 50px;}
+
+	h2 {text-align: center;
+		color:black;
+		font-size: 20px;}
+
 
 /* Grainy texture animation by Geoff Graham https://css-tricks.com/snippets/css/animated-grainy-texture/ */
 
